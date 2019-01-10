@@ -72,7 +72,7 @@ h6 {
 .open .dropdown-toggle.btn-primary {
   color: white;
   background-color: #804e4e;
-  border-color: #804e4e;
+  borde r-color: #804e4e;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -509,22 +509,23 @@ section#contact {
   background-image: url('../img/map-image.png');
   background-position: center;
   background-repeat: no-repeat;
+  padding-top: none;
 }
 section#contact .section-heading {
   color: white;
 }
 section#contact .form-group {
-  margin-bottom: 25px;
+  margin-bottom: none;
 }
 section#contact .form-group input,
 section#contact .form-group textarea {
-  padding: 20px;
+  padding: none;
 }
 section#contact .form-group input.form-control {
   height: auto;
 }
 section#contact .form-group textarea.form-control {
-  height: 236px;
+  height: 50px;
 }
 section#contact .form-control:focus {
   border-color: #bd8181;
