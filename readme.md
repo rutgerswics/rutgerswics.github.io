@@ -1,1 +1,2 @@
-Rutgers Women in Computer Science
+#Rutgers Women in Computer Science
+https://ruwics.github.io 
