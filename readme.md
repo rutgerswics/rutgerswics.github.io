@@ -1,10 +1,9 @@
 # Rutgers Women in Computer Science
 
-https://ruwics.github.io 
+https://rutgerswics.org
 
 ### Todos
- - Nothing at the moment (1/11/2019)
- - Change domain to wics.rutgers.edu when we get back to school?
+ - Add corporate sponsors
 
 ### Author
 
