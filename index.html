@@ -1,658 +1,943 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
     <title>Rutgers WiCS</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link
+      href="vendor/font-awesome/css/font-awesome.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700"
+      rel="stylesheet"
+      type="text/css"
+    />
 
     <!-- Theme CSS -->
-    <link href="css/agency.min.css" rel="stylesheet">
-    <link href="css/morecss.css" rel="stylesheet">
+    <link href="css/agency.min.css" rel="stylesheet" />
+    <link href="css/morecss.css" rel="stylesheet" />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <link rel="icon" type="image/png" href="img/wicslogo.png">
-</head>
+    <link rel="icon" type="image/png" href="img/wicslogo.png" />
+  </head>
 
-<body id="page-top" class="index">
-
+  <body id="page-top" class="index">
     <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Rutgers WiCS</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#calendar">Calendar</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#corporate">Corporate</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#board">Board</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                    <li>
-                        <a href="https://medium.com/@rutgerswics">Blog</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+    <nav
+      id="mainNav"
+      class="navbar navbar-default navbar-custom navbar-fixed-top"
+    >
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
+          >
+            <span class="sr-only">Toggle navigation</span> Menu
+            <i class="fa fa-bars"></i>
+          </button>
+          <a class="navbar-brand page-scroll" href="#page-top">Rutgers WiCS</a>
         </div>
-        <!-- /.container-fluid -->
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="hidden">
+              <a href="#page-top"></a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#about">About</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#calendar">Calendar</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#corporate">Corporate</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#board">Board</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#contact">Contact</a>
+            </li>
+            <li>
+              <a href="https://medium.com/@rutgerswics">Blog</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
     </nav>
 
     <!-- Header -->
     <header>
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in"></div>
-                <div class="intro-heading">Women in <br>Computer Science</div>
-                <a href="http://eepurl.com/hdVNlz" target="_blank" class="page-scroll btn btn-xl">Subscribe to our newsletter</a>
-                <br><br><br>
-                <ul class="list-inline social-buttons">
-                        <li><a href="https://instagram.com/rutgerswics" target="_blank"><i class="fa fa-instagram"></i></a>
-                        </li>
-                        <li><a href="http://www.facebook.com/groups/RutgersWCS/" target="_blank"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="http://twitter.com/rutgerswics" target="_blank"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li><a href="mailto:rutgerswics@gmail.com"><i class="fa fa-envelope"></i></a>
-                        </li>
-                </ul>
-            </div>
-          
+      <div class="container">
+        <div class="intro-text">
+          <div class="intro-lead-in"></div>
+          <div class="intro-heading">Women in <br />Computer Science</div>
+          <a
+            href="http://eepurl.com/hdVNlz"
+            target="_blank"
+            class="page-scroll btn btn-xl"
+            >Subscribe to our newsletter</a
+          >
+          <br /><br /><br />
+          <ul class="list-inline social-buttons">
+            <li>
+              <a href="https://instagram.com/rutgerswics" target="_blank"
+                ><i class="fa fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="http://www.facebook.com/groups/RutgersWCS/"
+                target="_blank"
+                ><i class="fa fa-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a href="http://twitter.com/rutgerswics" target="_blank"
+                ><i class="fa fa-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a href="mailto:rutgerswics@gmail.com"
+                ><i class="fa fa-envelope"></i
+              ></a>
+            </li>
+          </ul>
         </div>
+      </div>
     </header>
 
     <!-- About Section -->
     <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About</h2>
-                    <h3 class="section-subheading text-muted">
-                        Membership is open to all students of the Rutgers University community. 
-                    </h3>
-                    
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <img src="img/about/community.png" width="150" height="150"><br>
-                    </span>
-                    
-                    <h4 class="service-heading"><br><br>Building a Community</h4>
-                    <p class="text-muted">
-                            Our network connects female undergraduates to a social community, professional opportunities and each other.
-                            Throughout our mentorship program and community discussions, we are able to
-                            foster a sense of belonging and solidarity, creating a strong sisterhood for Rutgers women in tech.
-                    </p>
-                </div>
-                <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                                <img src="img/about/network.png" width="150" height="150"><br>
-                        </span>
-                        <h4 class="service-heading"><br><br>Career Development</h4>
-                        <p class="text-muted">
-                                We encourage and promote educational and professional development through various networking events 
-                                and tech talks. With the continuous support from our alumni, we are able to connect undergraduates with 
-                                professional women in the industry through our alumni panels. 
-                        </p>
-                </div>
-                <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                                <img src="img/about/glass.png" width="150" height="150"><br>
-                        </span>
-                        <h4 class="service-heading"><br><br>Empowering Women</h4>
-                        <p class="text-muted">
-                                It is a widely known fact that men far outnumber women in the field of computer science. 
-                                WiCS was created as a result of this gender gap, 
-                                to encourage the participation of women in computer science. We provide support and empower 
-                                our members to overcome barriers and break the glass ceiling.    
-                        </p>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">About</h2>
+            <h3 class="section-subheading text-muted">
+              Membership is open to all students of the Rutgers University
+              community.
+            </h3>
+          </div>
         </div>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <img
+                src="img/about/community.png"
+                width="150"
+                height="150"
+              /><br />
+            </span>
+
+            <h4 class="service-heading"><br /><br />Building a Community</h4>
+            <p class="text-muted">
+              Our network connects female undergraduates to a social community,
+              professional opportunities and each other. Throughout our
+              mentorship program and community discussions, we are able to
+              foster a sense of belonging and solidarity, creating a strong
+              sisterhood for Rutgers women in tech.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <img src="img/about/network.png" width="150" height="150" /><br />
+            </span>
+            <h4 class="service-heading"><br /><br />Career Development</h4>
+            <p class="text-muted">
+              We encourage and promote educational and professional development
+              through various networking events and tech talks. With the
+              continuous support from our alumni, we are able to connect
+              undergraduates with professional women in the industry through our
+              alumni panels.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <img src="img/about/glass.png" width="150" height="150" /><br />
+            </span>
+            <h4 class="service-heading"><br /><br />Empowering Women</h4>
+            <p class="text-muted">
+              It is a widely known fact that men far outnumber women in the
+              field of computer science. WiCS was created as a result of this
+              gender gap, to encourage the participation of women in computer
+              science. We provide support and empower our members to overcome
+              barriers and break the glass ceiling.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Calendar Grid Section -->
     <section id="calendar" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Calendar</h2>
-                    <h3 class="section-subheading text-muted">
-                        Upcoming WiCS events.<br><br>
-                        Each year we host and attend a variety of events to foster community, professional development, <br>
-                        and mentorship. These include tech talks, general meetings, weekly hack nights, interview prep, and much more. 
-                    </h3>
-                   
-                    <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=rutgerswics%40gmail.com&amp;color=%231B887A&amp;ctz=America%2FNew_York" style="border-width:0" width="1100" height="700" frameborder="0" scrolling="no"></iframe>
-                    <div class="col-lg-12 text-center">
-                    <div class="calendar-margin" id='calendar'></div>
-                    <a href="https://www.google.com/calendar/render?cid=rutgerswics%40gmail.com" target="_blank" class="add-calendar">Add our Google Calendar</a>
-                  </div>
-                    
-                </div>
-            </div>
-        
-        </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Calendar</h2>
+            <h3 class="section-subheading text-muted">
+              Upcoming WiCS events.<br /><br />
+              Each year we host and attend a variety of events to foster
+              community, professional development, <br />
+              and mentorship. These include tech talks, general meetings, weekly
+              hack nights, interview prep, and much more.
+            </h3>
 
+            <iframe
+              src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=rutgerswics%40gmail.com&amp;color=%231B887A&amp;ctz=America%2FNew_York"
+              style="border-width: 0"
+              width="750"
+              height="400"
+              frameborder="0"
+              scrolling="no"
+            ></iframe>
+            <div class="col-lg-12 text-center">
+              <div class="calendar-margin" id="calendar"></div>
+              <a
+                href="https://www.google.com/calendar/render?cid=rutgerswics%40gmail.com"
+                target="_blank"
+                class="add-calendar"
+                >Add our Google Calendar</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-     <!-- Current Sponsors Section -->
+    <!-- Current Sponsors Section -->
     <section id="sponsors">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">CORPORATE SPONSORS</h2>
-                    <h3 class="section-subheading text-muted">Thank you to the following companies who have partnered with Rutgers WiCS!</h3>
-                </div>
-            </div>
-            <div class="row">    
-                <div class="col-sm-4">
-                    <div class="board-member">
-                        <img height="315" width="315" src="img/sponsors/facebook.png" class="img-responsive" alt="">              
-                    </div>
-                </div>
-               <div class="col-sm-4">
-                    <div class="board-member">
-                        <img height="315" width="315" src="img/sponsors/google.png" class="img-responsive" alt="">              
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="board-member">
-                        <img height="315" width="315" src="img/sponsors/datadog.png" class="img-responsive" alt="">              
-                    </div>
-                </div>
-            </div>
-            <div class="row">    
-                <div class="col-sm-4">
-                    <div class="board-member">
-                        <img height="315" width="315" src="img/sponsors/amazon.png" class="img-responsive" alt="">              
-                    </div>
-                </div>
-               <div class="col-sm-4">
-                    <div class="board-member">
-                        <img height="315" width="315" src="img/sponsors/oracle.png" class="img-responsive" alt="">              
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="board-member">
-                        <img height="315" width="315" src="img/sponsors/microsoft.png" class="img-responsive" alt="">              
-                    </div>
-                </div>
-            </div>
-             <div class="row">    
-                <div class="col-sm-4">
-                    <div class="board-member">
-                        <img height="315" width="315" src="img/sponsors/hubspot.png" class="img-responsive" alt="">              
-                    </div>
-                </div>
-               <div class="col-sm-4">
-                    <div class="board-member">
-                        <img height="220" width="220" src="img/sponsors/mitsubishi.png" class="img-responsive" alt="">              
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="board-member">
-                        <img height="315" width="315" src="img/sponsors/gartner.png" class="img-responsive" alt="">              
-                    </div>
-                </div>
-            </div>
-   
-            
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">CORPORATE SPONSORS</h2>
+            <h3 class="section-subheading text-muted">
+              Thank you to the following companies who have partnered with
+              Rutgers WiCS!
+            </h3>
+          </div>
         </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="board-member">
+              <img
+                height="315"
+                width="315"
+                src="img/sponsors/facebook.png"
+                class="img-responsive"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="board-member">
+              <img
+                height="315"
+                width="315"
+                src="img/sponsors/google.png"
+                class="img-responsive"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="board-member">
+              <img
+                height="315"
+                width="315"
+                src="img/sponsors/datadog.png"
+                class="img-responsive"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="board-member">
+              <img
+                height="315"
+                width="315"
+                src="img/sponsors/amazon.png"
+                class="img-responsive"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="board-member">
+              <img
+                height="315"
+                width="315"
+                src="img/sponsors/oracle.png"
+                class="img-responsive"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="board-member">
+              <img
+                height="315"
+                width="315"
+                src="img/sponsors/microsoft.png"
+                class="img-responsive"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="board-member">
+              <img
+                height="315"
+                width="315"
+                src="img/sponsors/hubspot.png"
+                class="img-responsive"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="board-member">
+              <img
+                height="220"
+                width="220"
+                src="img/sponsors/mitsubishi.png"
+                class="img-responsive"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="board-member">
+              <img
+                height="315"
+                width="315"
+                src="img/sponsors/gartner.png"
+                class="img-responsive"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Corporate Section -->
     <section id="corporate" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Sponsor Us</h2>
-                    <h3 class="section-subheading text-muted">If you are interested in sponsoring or partnering with us, send us an email at <a href="mailto:rutgerswics@gmail.com">rutgerswics@gmail.com.</a></h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/corporate/nyc.png" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4 class="subheading">ORGANIZE A SITE VISIT</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">
-                                            We organize tours and tech talks at the offices of companies 
-                                            in Manhattan. If your company would like to set up a site visit with us,
-                                            send us a <b>note</b>.    
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/corporate/calendar.png" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4 class="subheading">CO-HOST AN EVENT WITH WICS</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">We welcome any collaborative event, from tech talks to community events! 
-                                        If you would like to sponsor an event on Rutgers's campus to connect students with 
-                                        opportunities at your company, raise awareness about the cool things you're doing, 
-                                        or hold mock interview sessions, <b>let us know</b>.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/corporate/sponsor.png" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4 class="subheading">SPONSOR WICS</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">
-                                            WiCS hosts a number of academic and social events, including workshops, 
-                                            tech talks and <a href="http://ruhackhers.org" target="_blank">HackHERS</a>. 
-                                            We also try to send as many students as possible to the Grace Hopper Conference. 
-                                            If you are interested in sponsoring an event or providing scholarships to Grace Hopper, definitely <b>get in touch!</b></p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/corporate/jobs.png" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4 class="subheading">OPEN JOB POSITIONS</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">
-                                            If your company has any open job opportunities you would like to broadcast to our members, 
-                                            feel free to shoot us an email at <a href="mailto:rutgerswics@gmail.com">rutgerswics@gmail.com</a>. We will 
-                                            be sure to include the opportunitiy in our upcoming newsletter.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <h4>Support
-                                    <br>Women
-                                    <br>in CS!</h4>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Sponsor Us</h2>
+            <h3 class="section-subheading text-muted">
+              If you are interested in sponsoring or partnering with us, send us
+              an email at
+              <a href="mailto:rutgerswics@gmail.com">rutgerswics@gmail.com.</a>
+            </h3>
+          </div>
         </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-image">
+                  <img
+                    class="img-circle img-responsive"
+                    src="img/corporate/nyc.png"
+                    alt=""
+                  />
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="subheading">ORGANIZE A SITE VISIT</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">
+                      We organize tours and tech talks at the offices of
+                      companies in Manhattan. If your company would like to set
+                      up a site visit with us, send us a <b>note</b>.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img
+                    class="img-circle img-responsive"
+                    src="img/corporate/calendar.png"
+                    alt=""
+                  />
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="subheading">CO-HOST AN EVENT WITH WICS</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">
+                      We welcome any collaborative event, from tech talks to
+                      community events! If you would like to sponsor an event on
+                      Rutgers's campus to connect students with opportunities at
+                      your company, raise awareness about the cool things you're
+                      doing, or hold mock interview sessions,
+                      <b>let us know</b>.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image">
+                  <img
+                    class="img-circle img-responsive"
+                    src="img/corporate/sponsor.png"
+                    alt=""
+                  />
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="subheading">SPONSOR WICS</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">
+                      WiCS hosts a number of academic and social events,
+                      including workshops, tech talks and
+                      <a href="http://ruhackhers.org" target="_blank"
+                        >HackHERS</a
+                      >. We also try to send as many students as possible to the
+                      Grace Hopper Conference. If you are interested in
+                      sponsoring an event or providing scholarships to Grace
+                      Hopper, definitely <b>get in touch!</b>
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img
+                    class="img-circle img-responsive"
+                    src="img/corporate/jobs.png"
+                    alt=""
+                  />
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="subheading">OPEN JOB POSITIONS</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">
+                      If your company has any open job opportunities you would
+                      like to broadcast to our members, feel free to shoot us an
+                      email at
+                      <a href="mailto:rutgerswics@gmail.com"
+                        >rutgerswics@gmail.com</a
+                      >. We will be sure to include the opportunitiy in our
+                      upcoming newsletter.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <h4>Support <br />Women <br />in CS!</h4>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- board Section -->
     <section id="board">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Our Executive Board</h2>
-                    <h3 class="section-subheading text-muted">Meet the current board of 2023-24!</h3>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Our Executive Board</h2>
+            <h3 class="section-subheading text-muted">
+              Meet the current board of 2024-25!
+            </h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="board-member">
+              <img
+                height="315"
+                width="315"
+                src="img/board/SRINIDHI24.jpg"
+                class="img-responsive img-circle"
+                alt=""
+              />
+              <h4>Srinidhi Ayalasomayajula</h4>
+              <p class="text-muted">President</p>
+              <p class="text-muted">CS + Cognitive Science Minor 2025</p>
+              <ul class="list-inline social-buttons">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/srinidhiayala/"
+                    target="_blank"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
             </div>
-            <div class="row">    
-                <div class="col-sm-4">
-                    <!-- <div class="board-member">
-                        <img height="315" width="315" src="img/board/kristina2023.png" class="img-responsive img-circle" alt="">
-                        <h4>Kristina Kwan</h4>
-                        <p class="text-muted">Co-President</p>
-                        <p class="text-muted">CS + Critical Intelligence Studies Minor 2023</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="mailto:kk1060@scarletmail.rutgers.edu"><i class="fa fa-envelope"></i></a>
-                            </li>
-                            <li><a href="https://www.facebook.com/kristina.kwan26/" target="_blank"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="https://github.com/kristina-kwan" target="_blank"><i class="fa fa-github"></i></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/in/kristinawkwan/" target="_blank"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div> -->
-                </div>
-                <div class="col-sm-4">
-                    <div class="board-member">
-                        <img height="315" width="315" src="img/board/khushi2023.png" class="img-responsive img-circle" alt="">
-                        <h4>Khushi Darji</h4>
-                        <p class="text-muted">Co-President</p>
-                        <p class="text-muted">CS + Cognitive Science Minor 2024</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="mailto:kkd50@scarletmail.rutgers.edu"><i class="fa fa-envelope"></i></a>
-                            </li>
-                            <li><a href="https://www.facebook.com/khushi.darji.3382/" target="_blank"><i class="fa fa-facebook"></i></a>
-                            </li>                
-                             <li><a href="https://github.com/khushi-x" target="_blank"><i class="fa fa-github"></i></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/in/khushidarji" target="_blank"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="board-member">
-                        <img height="315" width="315" src="img/board/amanda2023.PNG" class="img-responsive img-circle" alt="">
-                        <h4>Amanda Tsui</h4>
-                        <p class="text-muted">Treasurer</p>
-                        <p class="text-muted">CS 2025</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="mailto:alt165@scarletmail.rutgers.edu"><i class="fa fa-envelope"></i></a>
-                            </li>
-                            <li><a href="" target="_blank"><i class="fa fa-facebook"></i></a>
-                            </li>                
-                             <li><a href="" target="_blank"><i class="fa fa-github"></i></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/in/amandaltsui" target="_blank"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row">
-                <div class="col-sm-4">
-                    <div class="board-member">
-                        <img height="315" width="315" src="img/board/navya2023.png" class="img-responsive img-circle" alt="">
-                        <h4>Navya Sharma</h4>
-                        <p class="text-muted">Outreach Director</p>
-                        <p class="text-muted">CS 2025</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="mailto:navya.sharma@rutgers.edu"><i class="fa fa-envelope"></i></a>
-                            </li>
-                            <li><a href="https://www.facebook.com/navyasmd" target="_blank"><i class="fa fa-facebook"></i></a>
-                            </li>                
-                             <li><a href="https://github.com/navyalovestech" target="_blank"><i class="fa fa-github"></i></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/in/navyasharma7724/" target="_blank"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="board-member">
-                        <img height="315" width="315" src="img/board/tanvi2023.png" class="img-responsive img-circle" alt="">
-                        <h4>Tanvi Yamarthy</h4>
-                        <p class="text-muted">Outreach Director</p>
-                        <p class="text-muted">CS + Cognitive Science Minor 2026</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="mailto:tpy6@scarletmail.rutgers.edu"><i class="fa fa-envelope"></i></a>
-                            </li>
-                            <li><a href="https://www.facebook.com/profile.php?id=100086094408880" target="_blank"><i class="fa fa-facebook"></i></a>
-                            </li>                
-                             <li><a href="https://github.com/tyamarthy" target="_blank"><i class="fa fa-github"></i></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/in/tanviyamarthy/" target="_blank"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="board-member">
-                        <img height="315" width="315" src="img/board/nicole2023.png" class="img-responsive img-circle" alt="">
-                        <h4>Nicole Hsieh</h4>
-                        <p class="text-muted">Outreach Director</p>
-                        <p class="text-muted">CS + Critical Intelligence Minor 2024</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="mailto:nh462@scarletmail.rutger.edu"><i class="fa fa-envelope"></i></a>
-                            </li>
-                            <li><a href="" target="_blank"><i class="fa fa-facebook"></i></a>
-                            </li>                
-                            <li><a href="https://github.com/nichsieh" target="_blank"><i class="fa fa-github"></i></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/in/nicole-hsieh/" target="_blank"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="board-member">
+              <img
+                height="315"
+                width="315"
+                src="img/board/NADINE24.jpg"
+                class="img-responsive img-circle"
+                alt=""
+              />
+              <h4>Nadine Odeh</h4>
+              <p class="text-muted">Education Director</p>
+              <p class="text-muted">CS 2025</p>
+              <ul class="list-inline social-buttons">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/nadine-odeh/"
+                    target="_blank"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
             </div>
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="board-member">
-                        <img height="315" width="315" src="img/board/arunima2023.png" class="img-responsive img-circle" alt="">
-                        <h4>Arunima Bhowmik</h4>
-                        <p class="text-muted">Events Director</p>
-                        <p class="text-muted">CS 2024</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="mailto:ab2161@scarletmail.rutgers.edu"><i class="fa fa-envelope"></i></a>
-                            </li>
-                            <li><a href="" target="_blank"><i class="fa fa-facebook"></i></a>
-                            </li>                
-                             <li><a href="" target="_blank"><i class="fa fa-github"></i></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/in/arunimabhowmik/" target="_blank"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="board-member">
-                        <img height="315" width="315" src="img/board/araika2023.png" class="img-responsive img-circle" alt="">
-                        <h4>Araika Khokhar</h4>
-                        <p class="text-muted">Events Director</p>
-                        <p class="text-muted">Computer Science + Philosophy, Political Science, Economics 2025</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="mailto:aqk4@rutgers.edu"><i class="fa fa-envelope"></i></a>
-                            </li>
-                            <li><a href="" target="_blank"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="github.com/araikak" target="_blank"><i class="fa fa-github"></i></a>
-                            </li>
-                            <li><a href="linkedin.com/in/araikakhokhar" target="_blank"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="board-member">
-                        <img height="315" width="315" src="img/board/nadine2023.png" class="img-responsive img-circle" alt="">
-                        <h4>Nadine Odeh</h4>
-                        <p class="text-muted">Education Director</p>
-                        <p class="text-muted">CS 2025</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="mailto:no180@scarletmail.rutgers.edu"><i class="fa fa-envelope"></i></a>
-                            </li>
-                            <li><a href="" target="_blank"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="" target="_blank"><i class="fa fa-github"></i></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/in/nadine-odeh/" target="_blank"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="board-member">
+              <img
+                height="315"
+                width="315"
+                src="img/board/JESSICA24.jpg"
+                class="img-responsive img-circle"
+                alt=""
+              />
+              <h4>Jessica Luo</h4>
+              <p class="text-muted">Education Director</p>
+              <p class="text-muted">CS 2026</p>
+              <ul class="list-inline social-buttons">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/jessica-luo336/"
+                    target="_blank"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
             </div>
-            <div class="row">    
-                <div class="col-sm-4">
-                    <div class="board-member">
-                        <img height="315" width="315" src="img/board/srinidhi2023.png" class="img-responsive img-circle" alt="">
-                        <h4>Srinidhi Ayalasomayajula</h4>
-                        <p class="text-muted">HackHERS Director</p>
-                        <p class="text-muted">CS + Cognitive Science Minor 2025</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="mailto:sa1783@rutgers.edu"><i class="fa fa-envelope"></i></a>
-                            </li>
-                            <li><a href="" target="_blank"><i class="fa fa-facebook"></i></a>
-                            </li>                
-                            <li><a href="" target="_blank"><i class="fa fa-github"></i></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/in/srinidhiayala/" target="_blank"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="board-member">
-                        <img height="315" width="315" src="img/board/shatakshi2023.png" class="img-responsive img-circle" alt="">
-                        <h4>Shatakshi Ranjan</h4>
-                        <p class="text-muted">HackHERS Director</p>
-                        <p class="text-muted">CS + ITI 2025</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="mailto:sr1647@scarletmail.rutgers.edu"><i class="fa fa-envelope"></i></a>
-                            </li>
-                            <li><a href="https://www.facebook.com/profile.php?id=100085222733963" target="_blank"><i class="fa fa-facebook"></i></a>
-                            </li>                
-                             <li><a href="https://github.com/ShatakshiRanjan
-                                " target="_blank"><i class="fa fa-github"></i></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/in/shatakshi-ranjan/" target="_blank"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="board-member">
-                        <img height="315" width="315" src="img/board/tanushree2023.png" class="img-responsive img-circle" alt="">
-                        <h4>Tanushree Mehta</h4>
-                        <p class="text-muted">Girls Who Code Director</p>
-                        <p class="text-muted">CS + Computer Engineering 2026</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="mailto:tm897@scarletmail.rutgers.edu"><i class="fa fa-envelope"></i></a>
-                            </li>
-                            <li><a href="" target="_blank"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="" target="_blank"><i class="fa fa-github"></i></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/in/tanushreemehta/" target="_blank"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="board-member">
+              <img
+                height="315"
+                width="315"
+                src="img/board/KATRINA24.jpeg"
+                class="img-responsive img-circle"
+                alt=""
+              />
+              <h4>Katrina Bawar</h4>
+              <p class="text-muted">Outreach Director</p>
+              <p class="text-muted">CS + Data Science & Physics Minor 2026</p>
+              <ul class="list-inline social-buttons">
+                <li>
+                  <a href="https://www.linkedin.com/in/kbawar/" target="_blank"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
             </div>
-            <div class="row">    
-                <div class="col-sm-6">
-                    <div class="board-member">
-                        <img height="315" width="315" src="img/board/natalie2023.png" class="img-responsive img-circle" alt="">
-                        <h4>Natalie Chow</h4>
-                        <p class="text-muted">Marketing Director</p>
-                        <p class="text-muted">CS 2025</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="mailto:njc151@scarletmail.rutgers.edu"><i class="fa fa-envelope"></i></a>
-                            </li>
-                            <li><a href="https://www.facebook.com/natalie.chow.7545/" target="_blank"><i class="fa fa-facebook"></i></a>
-                            </li>                
-                            <li><a href="https://github.com/nataliechoww" target="_blank"><i class="fa fa-github"></i></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/in/natalie-chow-a99029219/" target="_blank"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="board-member">
-                        <img height="315" width="315" src="img/board/jessica2023.png" class="img-responsive img-circle" alt="">
-                        <h4>Jessica Luo</h4>
-                        <p class="text-muted">Design Director</p>
-                        <p class="text-muted">CS 2025</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="mailto:jessica.luo@rutgers.edu"><i class="fa fa-envelope"></i></a>
-                            </li>
-                            <li><a href="https://m.facebook.com/profile.php/?id=100082954163981&name=xhp_nt__fb__action__open_user" target="_blank"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="https://github.com/jluo3364" target="_blank"><i class="fa fa-github"></i></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/in/jessica-luo336?trk=contact-info" target="_blank"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="board-member">
+              <img
+                height="315"
+                width="315"
+                src="img/board/RANVITHA24.jpg"
+                class="img-responsive img-circle"
+                alt=""
+              />
+              <h4>Ranvitha Kandru</h4>
+              <p class="text-muted">Outreach Director</p>
+              <p class="text-muted">CS + Data Science Minor 2027</p>
+              <ul class="list-inline social-buttons">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/ranvitha-kandru-4b853b2a3/"
+                    target="_blank"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="board-member">
+              <img
+                height="315"
+                width="315"
+                src="img/board/SARA24.jpg"
+                class="img-responsive img-circle"
+                alt=""
+              />
+              <h4>Sara Deshmukh</h4>
+              <p class="text-muted">Outreach Director</p>
+              <p class="text-muted">CS + Statistics/Mathematics 2027</p>
+              <ul class="list-inline social-buttons">
+                <li>
+                  <a href="https://www.linkedin.com/in/snd83/" target="_blank"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="board-member">
+              <img
+                height="315"
+                width="315"
+                src="img/board/TANUSHREE24.PNG"
+                class="img-responsive img-circle"
+                alt=""
+              />
+              <h4>Tanushree Mehta</h4>
+              <p class="text-muted">HackHERS Director</p>
+              <p class="text-muted">CS + Computer Engineering 2026</p>
+              <ul class="list-inline social-buttons">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/tanushreemehta/"
+                    target="_blank"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="board-member">
+              <img
+                height="315"
+                width="315"
+                src="img/board/TANVI24.jpeg"
+                class="img-responsive img-circle"
+                alt=""
+              />
+              <h4>Tanvi Yamarthy</h4>
+              <p class="text-muted">HackHERS Director</p>
+              <p class="text-muted">CS + Data Science Minor 2026</p>
+              <ul class="list-inline social-buttons">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/tyamarthy/"
+                    target="_blank"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="board-member">
+              <img
+                height="315"
+                width="315"
+                src="img/board/NATALIE24.jpg"
+                class="img-responsive img-circle"
+                alt=""
+              />
+              <h4>Natalie Chow</h4>
+              <p class="text-muted">HackHERS Director</p>
+              <p class="text-muted">CS 2025</p>
+              <ul class="list-inline social-buttons">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/nataliechow/"
+                    target="_blank"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="board-member">
+              <img
+                height="315"
+                width="315"
+                src="img/board/AKSHARA24.png"
+                class="img-responsive img-circle"
+                alt=""
+              />
+              <h4>Sri Akshara Kollu</h4>
+              <p class="text-muted">Events Director</p>
+              <p class="text-muted">CS 2025</p>
+              <ul class="list-inline social-buttons">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/akshara-kollu-b7b155270/"
+                    target="_blank"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="board-member">
+              <img
+                height="315"
+                width="315"
+                src="img/board/NITHYA24.jpg"
+                class="img-responsive img-circle"
+                alt=""
+              />
+              <h4>Nithya Konduru</h4>
+              <p class="text-muted">Events Director</p>
+              <p class="text-muted">CS + Data Science Minor 2026</p>
+              <ul class="list-inline social-buttons">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/nithyakon/"
+                    target="_blank"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="board-member">
+              <img
+                height="315"
+                width="315"
+                src="img/board/DIVYA24.JPG"
+                class="img-responsive img-circle"
+                alt=""
+              />
+              <h4>Divya Israni</h4>
+              <p class="text-muted">Girls Who Code Director</p>
+              <p class="text-muted">CS + Data Science Minor 2027</p>
+              <ul class="list-inline social-buttons">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/divya-israni306/"
+                    target="_blank"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
             </div>
             
-            <div class="row">
-                      <h3 class="section-subheading text-muted" style="text-align: center">
-                           <br>The WiCS Board holds Weekly Meetings to plan and discuss upcoming events and programs.
-                     </h3>
-            </div>
- 
+          </div>
         </div>
-    </section>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="board-member">
+              <img
+                height="315"
+                width="315"
+                src="img/board/DHYANASHRI24.jpeg"
+                class="img-responsive img-circle"
+                alt=""
+              />
+              <h4>Dhyanashri Raman</h4>
+              <p class="text-muted">Treasurer Director</p>
+              <p class="text-muted">CS + Data Science Minor 2026</p>
+              <ul class="list-inline social-buttons">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/dhyanashri-raman/"
+                    target="_blank"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="board-member">
+              <img
+                height="315"
+                width="315"
+                src="img/board/AMANDA24.jpeg"
+                class="img-responsive img-circle"
+                alt=""
+              />
+              <h4>Amanda Tsui</h4>
+              <p class="text-muted">Treasurer Director</p>
+              <p class="text-muted">CS + Data Science Minor 2025</p>
+              <ul class="list-inline social-buttons">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/amandaltsui/"
+                    target="_blank"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="board-member">
+              <img
+                height="315"
+                width="315"
+                src="img/board/AUDREY24.jpeg"
+                class="img-responsive img-circle"
+                alt=""
+              />
+              <h4>Audrey Shin</h4>
+              <p class="text-muted">Design Director</p>
+              <p class="text-muted">CS 2027</p>
+              <ul class="list-inline social-buttons">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/audrey-shin/"
+                    target="_blank"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="board-member">
+              
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="board-member">
+              <img
+                height="315"
+                width="315"
+                src="img/board/ANDREA24.png"
+                class="img-responsive img-circle"
+                alt=""
+              />
+              <h4>Andrea Kim</h4>
+              <p class="text-muted">Marketing Director</p>
+              <p class="text-muted">CS 2026</p>
+              <ul class="list-inline social-buttons">
+                <li>
+                  <a href="https://www.linkedin.com/in/anndreea/" target="_blank"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="board-member">
+            </div>
+          </div>
+        </div>
 
+        <div class="row">
+          <h3 class="section-subheading text-muted" style="text-align: center">
+            <br />The WiCS Board holds Weekly Meetings to plan and discuss
+            upcoming events and programs.
+          </h3>
+        </div>
+      </div>
+    </section>
 
     <!-- Contact Section -->
     <section id="contact">
-        <div class="text-center" style="padding: none">
-                    <h2 class="section-heading">Contact Us</h2>
-                    <br><br>
-                    <h3 class="section-subheading text-muted" style="color: white">Send us an email at <a href="mailto:rutgerswics@gmail.com">rutgerswics@gmail.com</a>.</h3>
-                    <h3 class="section-subheading text-muted">We'll get back to you as soon as possible.</h3>
-        </div>
-    
+      <div class="text-center" style="padding: none">
+        <h2 class="section-heading">Contact Us</h2>
+        <br /><br />
+        <h3 class="section-subheading text-muted" style="color: white">
+          Send us an email at
+          <a href="mailto:rutgerswics@gmail.com">rutgerswics@gmail.com</a>.
+        </h3>
+        <h3 class="section-subheading text-muted">
+          We'll get back to you as soon as possible.
+        </h3>
+      </div>
     </section>
 
     <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; <b>Rutgers WiCS</b></span>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        <li><a href="https://instagram.com/rutgerswics" target="_blank"><i class="fa fa-instagram"></i></a>
-                        </li>
-                        <li><a href="http://www.facebook.com/groups/RutgersWCS/" target="_blank"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="http://twitter.com/rutgerswics" target="_blank"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li><a href="mailto:rutgerswics@gmail.com"><i class="fa fa-envelope"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li><a href="http://rutgers.edu" target="_blank">Rutgers</a>
-                        </li>
-                        <li><a href="http://cs.rutgers.edu" target="_blank">Department of CS</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <span class="copyright">Copyright &copy; <b>Rutgers WiCS</b></span>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline social-buttons">
+              <li>
+                <a href="https://instagram.com/rutgerswics" target="_blank"
+                  ><i class="fa fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="http://www.facebook.com/groups/RutgersWCS/"
+                  target="_blank"
+                  ><i class="fa fa-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a href="http://twitter.com/rutgerswics" target="_blank"
+                  ><i class="fa fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a href="mailto:rutgerswics@gmail.com"
+                  ><i class="fa fa-envelope"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline quicklinks">
+              <li><a href="http://rutgers.edu" target="_blank">Rutgers</a></li>
+              <li>
+                <a href="http://cs.rutgers.edu" target="_blank"
+                  >Department of CS</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
     </footer>
 
     <!-- jQuery -->
@@ -670,7 +955,5 @@
 
     <!-- Theme JavaScript -->
     <script src="js/agency.min.js"></script>
-
-</body>
-
+  </body>
 </html>
